@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+
+    <FrameLayout
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+         android:layout_height="wrap_content">
+
+    <com.ketan.circlemenu.circlemenu.CircleLayout
+        xmlns:circle="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/circle_layout"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_gravity="center"
+        circle:firstChildPosition="South"
+        circle:isRotating="false"
+        android:background="@drawable/circle2"
+        circle:radius="85dp"
+        circle:speed="50">
+        <include layout="@layout/menu_items" />
+    </com.ketan.circlemenu.circlemenu.CircleLayout>
+
+        <ImageView
+            android:id="@+id/circle_home"
+            android:background="@drawable/circle"
+            android:layout_gravity="center"
+            android:padding="14dp"
+            android:onClick="HomeServiceUI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_send"/>
+
+
+    </FrameLayout>
+
+</LinearLayout>

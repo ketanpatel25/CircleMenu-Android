@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6FB243</color>
+    <color name="colorPrimaryDark">#6FB243</color>
+    <color name="colorAccent">#4099ff</color>
+
+
+    <color name="colorlink">#489e2d</color>
+
+    <color name="dark_background">#184c1a</color>
+    <!--<color name="light_background">#e2f9e3</color>-->
+    <color name="light_background">#CCE6CD</color>
+
+    <color name="button_text">#1C5D22</color>
+    <color name="footer">#48981C</color>
+    <color name="menuIcon">#44000000</color>
+</resources>

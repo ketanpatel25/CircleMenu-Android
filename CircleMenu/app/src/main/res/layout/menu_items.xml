@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circle="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.ketan.circlemenu.circlemenu.CircleImageView
+        android:id="@+id/main_map_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:onClick="MapServiceUI"
+        android:src="@drawable/ic_map"
+        circle:name="@string/map" />
+
+    <com.ketan.circlemenu.circlemenu.CircleImageView
+        android:id="@+id/main_mail_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:src="@drawable/ic_mail"
+        circle:name="@string/mail" />
+
+
+    <com.ketan.circlemenu.circlemenu.CircleImageView
+        android:id="@+id/main_whatsapp_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:src="@drawable/ic_whatsapp"
+        circle:name="@string/whatsapp" />
+
+    <com.ketan.circlemenu.circlemenu.CircleImageView
+        android:id="@+id/main_google_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_google"
+        circle:name="@string/googleP" />
+
+    <com.ketan.circlemenu.circlemenu.CircleImageView
+        android:id="@+id/main_facebook_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="facebookServiceUI"
+        android:elevation="2dp"
+        android:src="@drawable/ic_fecabook"
+        circle:name="@string/facebook" />
+
+    <com.ketan.circlemenu.circlemenu.CircleImageView
+        android:id="@+id/main_contact_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:onClick="ContectServiceUI"
+        android:src="@drawable/ic_contect"
+        circle:name="@string/bookService" />
+
+</merge>
