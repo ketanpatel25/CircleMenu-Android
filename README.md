@@ -1,6 +1,12 @@
 # CircleMenu-Android
 CircleMenu-Android 
 
+Copy code and pest your project 
+
+copy code in progect layout.xml file and attrs.xml  
+
+
+
  <!DOCTYPE html>
 <html>
 <body>
